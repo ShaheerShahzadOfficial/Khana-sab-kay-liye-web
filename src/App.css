@@ -1,0 +1,155 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap'); */
+*{
+  user-select: none;
+  font-family: 'Cantarell', sans-serif;
+}
+.bg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(241, 241, 241);
+}
+.Card{
+  height: 50%;
+  width: 60%;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 5px rgb(220, 220, 220);
+  display: flex;
+  flex-direction: row;
+  padding: 20px 10px 20px 10px;
+  min-height: 400px;
+}
+.CardSubDiv{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.CardSubDiv img{
+  width: 90%;
+}
+.img{
+  flex:2;
+}
+.createAccountText{
+  flex:1;
+  font-size: 10px;
+  text-align: center;
+  text-decoration: underline;
+  color: black;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.textDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.title{
+  font-style: bold;
+}
+.inputCon{
+  width: 80%;
+  padding: 5px;
+  border-bottom: 1px solid gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.inputField{
+  border: none;
+  margin-left: 10px;
+  width: 80%;
+  flex:1;
+  margin-right: 10px;
+  padding-left:10px
+}
+.inputField:focus {
+  outline: none;
+  box-shadow: none;
+}
+.inputRightIcon{
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+.inputLeftIcon{
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+.hoverable:hover{
+  cursor: pointer;
+}
+.rememberMe{
+  display: flex;
+  flex-direction: row;
+  font-size: small;
+  margin-top: 10px;
+}
+.loginButton{
+  width: 60px;
+  font-weight: bolder;
+  background-color: royalblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 15px 7px 15px;
+  color:white;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.fa-facebook-square{
+  color:#4267B2;
+  font-size: 2em;
+  margin: 3px;
+}
+.fa-twitter-square{
+  color:#00acee;
+  font-size: 2em;
+  margin: 3px;
+}
+.fa-google-plus-square{
+  color:#db4a39;
+  font-size: 2em;
+  margin: 3px;
+}
+.optionText{
+  font-size: 10px;
+  color: black;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.optionTextDiv{
+  margin-top: 15px;
+}
+#btnLogin{
+  margin-right: 60px;
+}
+@media screen and (max-width: 1100px) {
+  .Card{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .CardSubDiv img{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .Navbar{
+    width: 150%;
+  }
+}
+
+.Navbar{
+  width: 100%;
+  height:70;
+  align-content:"center";
+  align-items:"center";
+  margin:10
+}
